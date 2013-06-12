@@ -1,0 +1,157 @@
+{
+	"name": "my-cluster",
+	"type": 0,
+	"selection": "STRAW",
+	"children": [
+		{
+			"name": "dc1",
+			"type": 1,
+			"selection": "STRAW",
+			"children": [
+				{
+					"name": "dc1rack1",
+					"type": 2,
+					"selection": "STRAW",
+					"children": [
+						{
+							"name": "dc1rack1node1", 
+							"type": 5,
+							"weight": 100
+						},
+						{
+							"name": "dc1rack1node2", 
+							"type": 5,
+							"weight": 100
+						}
+					]
+				},
+				{
+					"name": "dc1rack2",
+					"type": 2,
+					"selection": "STRAW",
+					"children": [
+						{
+							"name": "dc1rack2node1", 
+							"type": 5,
+							"weight": 100
+						},
+						{
+							"name": "dc1rack2node2", 
+							"type": 5,
+							"weight": 50
+						}
+					]
+				},
+				{
+					"name": "dc1rack3",
+					"type": 2,
+					"selection": "STRAW",
+					"children": [
+						{
+							"name": "dc1rack3node1", 
+							"type": 5,
+							"weight": 100
+						},
+						{
+							"name": "dc1rack3node2", 
+							"type": 5,
+							"weight": 100
+						}
+					]
+				},
+				{
+					"name": "dc1rack4",
+					"type": 2,
+					"selection": "STRAW",
+					"children": [
+						{
+							"name": "dc1rack4node1", 
+							"type": 5,
+							"weight": 100
+						},
+						{
+							"name": "dc1rack4node2", 
+							"type": 5,
+							"weight": 100
+						}
+					]
+				},
+				{
+					"name": "dc1rack5",
+					"type": 2,
+					"selection": "STRAW",
+					"children": [
+						{
+							"name": "dc1rack5node1", 
+							"type": 5,
+							"weight": 100
+						},
+						{
+							"name": "dc1rack5node2", 
+							"type": 5,
+							"weight": 100
+						}
+					]
+				},
+				{
+					"name": "dc1rack6",
+					"type": 2,
+					"selection": "STRAW",
+					"children": [
+						{
+							"name": "dc1rack6node1", 
+							"type": 5,
+							"weight": 100
+						},
+						{
+							"name": "dc1rack6node2", 
+							"type": 5,
+							"weight": 100
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "dc2",
+			"type": 1,
+			"selection": "STRAW",
+			"children": [
+				{
+					"name": "dc2rack1",
+					"type": 2,
+					"selection": "STRAW",
+					"children": [
+						{
+							"name": "dc2rack1node1", 
+							"type": 5,
+							"weight": 100
+						},
+						{
+							"name": "dc2rack1node2", 
+							"type": 5,
+							"weight": 75
+						}
+					]
+				},
+				{
+					"name": "dc2rack2",
+					"type": 2,
+					"selection": "STRAW",
+					"children": [
+						{
+							"name": "dc2rack2node1", 
+							"type": 5,
+							"weight": 25
+						},
+						{
+							"name": "dc2rack2node2", 
+							"type": 5,
+							"weight": 25
+						}
+					]
+				}
+			]
+		}
+	]
+}
