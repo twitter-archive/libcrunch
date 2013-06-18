@@ -1,5 +1,7 @@
 # libcrunch
-Libcrunch is a mapping framework that maps data objects to a number of nodes, subject to user-specified constraints.
+Libcrunch is a lightweight mapping framework that maps data objects to a number of nodes, subject to user-specified constraints.
+
+The libcrunch implementation was heavily inspired by the paper on the [CRUSH algorithm](http://www.ssrc.ucsc.edu/Papers/weil-sc06.pdf).
 
 ## Features
 * flexible cluster topology definition
@@ -17,7 +19,7 @@ The latest libcrunch artifacts are published to maven central. You can include l
     <dependency>
       <groupId>com.twitter</groupId>
       <artifactId>libcrunch</artifactId>
-      <version>0.0.7</version>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
 ```
