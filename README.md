@@ -1,4 +1,4 @@
-# libcrunch
+# libcrunch [![Build Status](https://travis-ci.org/twitter/libcrunch.png?branch=master)](https://travis-ci.org/twitter/libcrunch)
 Libcrunch is a lightweight mapping framework that maps data objects to a number of nodes, subject to user-specified constraints.
 
 The libcrunch implementation was heavily inspired by the paper on the [CRUSH algorithm](http://www.ssrc.ucsc.edu/Papers/weil-sc06.pdf).
