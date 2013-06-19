@@ -3,7 +3,7 @@
   <groupId>com.twitter</groupId>
   <artifactId>libcrunch</artifactId>
   <name>libcrunch</name>
-  <version>1.0.2</version>
+  <version>1.0.3-SNAPSHOT</version>
   <url>http://github.com/twitter/libcrunch</url>
   <description>A lightweight mapping framework that maps data objects to a number of nodes, subject to constraints</description>
 
