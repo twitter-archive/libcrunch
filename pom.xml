@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.twitter</groupId>
   <artifactId>libcrunch</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <url>http://github.com/twitter/libcrunch</url>
   <description>A lightweight mapping framework that maps data objects to a number of nodes, subject to constraints</description>
 
