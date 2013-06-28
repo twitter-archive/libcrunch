@@ -55,6 +55,12 @@
       <version>1.0.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>1.10</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <scm>

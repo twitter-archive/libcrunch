@@ -1,0 +1,10 @@
+target_balance_max: 0
+dump_detail_map: yes
+weight_balance_tries: 200
+weight_balance_factor: 0.1
+number_of_buckets: 50000
+replica_distribution_factor: 7
+replication_factor: 3
+replica_distribution_factor_min: 5
+replica_distribution_factor_max: 7
+machine_list:

@@ -119,6 +119,7 @@ class StrawSelector implements Selector {
 
   private long weightedScore(Node child, long straw, long input, long round) {
     long hash = hashFunction.hash(input, child.getId(), round);
+    hash = hash&0xffff;
     long weightedScore = hash*straw;
     return weightedScore;
   }
