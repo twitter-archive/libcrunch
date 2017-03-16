@@ -1,3 +1,7 @@
+# STATUS
+
+Twitter is no longer maintaining this project or responding to issues or PRs.
+
 # libcrunch [![Build Status](https://travis-ci.org/twitter/libcrunch.png?branch=master)](https://travis-ci.org/twitter/libcrunch)
 Libcrunch is a lightweight mapping framework that maps data objects to a number of nodes, subject to user-specified constraints.
 
